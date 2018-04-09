@@ -1,16 +1,14 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle:
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is Bunny Yiu, I am a software enginner with more than 10 years experience in coding.
+Current, solution architect at SME company LKKHPG, specialized in microserives, cloud infastructure, kubernetes, docker and devops. This blog, contents and opinions are my own and not the views of my employer.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+# Backgroud
+I was senior software engineer at ClusterTech, for around 6 years. I worked on some IaaS products.
 
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+# Education
+I have a master degree in computer science from the Chinese University of Hong Kong, and a bachelor degree with First-class Honours in computer studies from the City University of Hong Kong.
