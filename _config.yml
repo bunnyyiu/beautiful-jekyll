@@ -14,10 +14,10 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Bunny Yiu
+title: This is Bunny Yiu's Blog
 
 # Short description of your site
-description: A blog about coding, cloud, infastructure, kubernetes, docker, devops or anythings matter to me.
+description: A blog about coding, cloud infrastructure, distributed systems, kubernetes, docker, devops or other interesting topics.
 
 # --- Navigation bar options --- #
 
