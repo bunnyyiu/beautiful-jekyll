@@ -5,7 +5,7 @@ subtitle:
 ---
 
 My name is Bunny Yiu, I am a software enginner with more than 10 years experience in coding.
-Current, solution architect at SME company LKKHPG, specialized in microserives, cloud infastructure, kubernetes, docker and devops. This blog, contents and opinions are my own and not the views of my employer.
+Current, solution architect at SME company LKKHPG, specialized in microserives, cloud infrastructure, kubernetes, docker and devops. This blog, contents and opinions are my own and not the views of my employer.
 
 # Backgroud
 I was senior software engineer at ClusterTech, for around 6 years. I worked on some IaaS products.
