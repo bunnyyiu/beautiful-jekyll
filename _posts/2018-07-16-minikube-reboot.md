@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: minikube with hyperkit hang after machine reboot
