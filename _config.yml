@@ -25,7 +25,7 @@ description: A blog about coding, cloud infrastructure, distributed systems, kub
 navbar-links:
   About Me: "aboutme"
   GitHub: "https://github.com/bunnyyiu"
-  Linkedin: "www.linkedin.com/in/bunnyyiu"
+  Linkedin: "https://www.linkedin.com/in/bunnyyiu"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
