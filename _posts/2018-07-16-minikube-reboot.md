@@ -11,7 +11,7 @@ minikube delete
 ```
 
 But this is not something I interested, as I have to initialize all the setup and pull all docker images which take a long time.
-This is relating to several issues like this <https://github.com/kubernetes/minikube/issues/1926> and <https://github.com/kubernetes/minikube/issues/2430>.
+This is relate to several issues like this <https://github.com/kubernetes/minikube/issues/1926> and <https://github.com/kubernetes/minikube/issues/2430>.
 
 After some troubeleshoot and googling, I am able to start the minikube wihtout destroy the minikube cluster with the following quick fix:
 ```bash
@@ -26,7 +26,7 @@ minikube ssh rm /etc/docker/.keep
 minikube ssh sudo systemctl -f stop docker
 ```
 
-Hope this help, a [gist]<https://gist.githubusercontent.com/bunnyyiu/6de36ccccd0c89d4e1eeb7ad29691900/raw/40eee5b5dd9b71f56d6488d44d449f9df86b5713/fix_minikube.sh> is avialble too.
+Hope this help, a [gist](https://gist.githubusercontent.com/bunnyyiu/6de36ccccd0c89d4e1eeb7ad29691900/raw/40eee5b5dd9b71f56d6488d44d449f9df86b5713/fix_minikube.sh) is avialble too.
 
 # References
 <https://github.com/jenkins-x/jx/issues/199>
