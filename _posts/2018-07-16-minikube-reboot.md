@@ -25,13 +25,13 @@ sudo rm /private/var/db/dhcpd_leases
 minikube start -v 10 &
 sleep 60
 minikube ssh "sudo rm -f /etc/docker/.keep"
-minikube ssh "sudo systemctl -f stop docker"
+minikube ssh "sudo killall dockerd"
 ```
 
-Hope this help, a [gist](https://gist.githubusercontent.com/bunnyyiu/6de36ccccd0c89d4e1eeb7ad29691900/raw/0ec4b28be9c26409d544e7b11b0f89813f1cc625/fix_minikube.sh) is available too.
+Hope this help, a [gist](https://gist.githubusercontent.com/bunnyyiu/6de36ccccd0c89d4e1eeb7ad29691900/raw/179303889d99652df3bedebe805e6e909ade167c/fix_minikube.sh) is available too.
 
 # References
 <https://github.com/jenkins-x/jx/issues/199>
 <https://github.com/kubernetes/minikube/issues/1926>
 <https://github.com/kubernetes/minikube/issues/2430>
-<https://gist.githubusercontent.com/bunnyyiu/6de36ccccd0c89d4e1eeb7ad29691900/raw/0ec4b28be9c26409d544e7b11b0f89813f1cc625/fix_minikube.sh>
+<https://gist.githubusercontent.com/bunnyyiu/6de36ccccd0c89d4e1eeb7ad29691900/raw/179303889d99652df3bedebe805e6e909ade167c/fix_minikube.sh>
